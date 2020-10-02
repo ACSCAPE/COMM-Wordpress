@@ -7,13 +7,13 @@ add_theme_support( 'post-thumbnails' );
 add_theme_support( 'title-tag' );
 
 // Configuration du thème
-	require_once get_template_directory() . '/inc/config.php';
-
-	// Types de publication et taxonomies
-	require_once get_template_directory() . '/inc/post-types.php';
-
-	// Fonctionnalités
-	require_once get_template_directory() . '/inc/features.php';
+	// require_once get_template_directory() . '/inc/config.php';
+  //
+	// // Types de publication et taxonomies
+	// require_once get_template_directory() . '/inc/post-types.php';
+  //
+	// // Fonctionnalités
+	// require_once get_template_directory() . '/inc/features.php';
 
 function acscape_register_assets () {
   wp_register_style('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css', []);
