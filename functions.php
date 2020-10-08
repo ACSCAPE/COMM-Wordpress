@@ -41,6 +41,6 @@ function acscape_custom_header_setup() {
   );
   add_theme_support( 'custom-header', $args );
 }
-add_action( 'after_setup_theme', 'astral_custom_header_setup' );
+add_action( 'after_setup_theme', 'acscape_custom_header_setup' );
 
 ?>
