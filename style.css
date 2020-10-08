@@ -5,3 +5,30 @@ Description: Thème Acscape
 Requires at least: WordPress 5.0
 Version: 1.0
 */
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+#logo-acscape {
+  width: 150px;
+}
+
+#menu-headermenu {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  text-transform: uppercase;
+}
+
+.menu-headermenu-container {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 79%;
+}
