@@ -33,3 +33,21 @@ li {
   width: 40%;
   text-transform: uppercase;
 }
+
+#img-header {
+  margin:auto;
+  width:50%;
+  height:70vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* #title_page {
+  display: flex;
+  justify-content: center;
+} */
+
+#main-header {
+  display: flex;
+  align-items: center;
+}
