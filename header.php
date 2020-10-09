@@ -7,7 +7,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <header class="header">
+  <header>
     <a href="<?php echo home_url( '/' ); ?>"></a>
     <nav id="navbar">
       <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" id="logo-acscape" alt="Logo">
@@ -15,5 +15,4 @@
     </nav>
   </header>
 
-
-  <?php wp_body_open(); ?>
+<?php wp_body_open(); ?>
