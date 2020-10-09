@@ -9,7 +9,7 @@
 <body <?php body_class(); ?>>
   <header class="header">
     <a href="<?php echo home_url( '/' ); ?>"></a>
-    <nav>
+    <nav id="navbar">
       <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" id="logo-acscape" alt="Logo">
       <?php echo wp_nav_menu( array( 'theme_location' => 'header-menu' ) ) ?>
     </nav>
