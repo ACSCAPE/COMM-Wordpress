@@ -33,8 +33,8 @@ add_action('wp_enqueue_scripts', 'acscape_register_assets');
 
 function acscape_custom_header_setup() {
   $args = array(
-  'default-image' => get_template_directory_uri() . 'img/image-header.jpg',
-  'width' => 2000,
+  'default-image' => get_template_directory_uri() . 'img/img-header.jpg',
+  'width' => 150,
   'height' => 500,
   'flex-width' => true,
   'flex-height' => true,
