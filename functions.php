@@ -6,14 +6,12 @@ add_theme_support( 'post-thumbnails' );
 // Ajouter automatiquement le titre du site dans l'en-tête du site
 add_theme_support( 'title-tag' );
 
-// Configuration du thème
-	// require_once get_template_directory() . '/inc/config.php';
-  //
-	// // Types de publication et taxonomies
-	// require_once get_template_directory() . '/inc/post-types.php';
-  //
-	// // Fonctionnalités
-	// require_once get_template_directory() . '/inc/features.php';
+// Ajout des fonctions par pages
+get_template_part('inc/features-accueil');
+get_template_part('inc/features-about');
+get_template_part('inc/features-blog');
+get_template_part('inc/features-team');
+get_template_part('inc/features-contact');
 
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));
